@@ -45,5 +45,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
         with:
-          ARTIFACTS_DIR: build
+          folder: build
 
